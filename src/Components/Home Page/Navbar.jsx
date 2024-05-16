@@ -6,8 +6,8 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
-                <h5><a className="navbar-brand" href="#">Legal Connect</a></h5>
-                <form className="d-flex" role="search">
+                <h2>Legal Connect</h2>
+                <form className="d-flex me-5 ms-5" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-outline-success" type="submit">Search</button>
                 </form>
@@ -16,21 +16,24 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
+                        <li className="nav-item me-5">
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" Link to="/">Check Up</a>
+                        <li className="nav-item me-5">
+                            <a className="nav-link" href="#">Check Up</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item me-5">
                             <a className="nav-link" href="#">My course</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item me-5">
                             <a className="nav-link" href="#">Inbox</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item me-5">
+                            <a className="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li className="nav-item me-5">
                             <a className="nav-link" href="#">Account</a>
-                        </li>      
+                        </li>     
                     </ul>
                     
                 </div>
